@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "09ed50d46eeb0bba",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6d1d10aa5add415",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4278068ec60b2d75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EEE - 1151 (Redo)/20 - Filter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20 - Filter"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0f323284996a012d",
+    "type": "split",
+    "children": [
+      {
+        "id": "346ffd162a523e4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23907d3a29e5d6e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "543376dae022e23d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8c143240cc8c1ce0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 232.50152587890625
+  },
+  "right": {
+    "id": "4b6f178e9a2fbe0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1157b2fdb93e0af0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a40bd53ee49e8c0c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CHEM  - 1113/Course Information.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Course Information"
+            }
+          },
+          {
+            "id": "e58c06704072f9da",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CHEM  - 1113/Course Information.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Course Information"
+            }
+          },
+          {
+            "id": "3c4d3b50563fabd7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6f1b24c664f042a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CHEM  - 1113/Course Information.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Course Information"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4278068ec60b2d75",
+  "lastOpenFiles": [
+    "EEE - 1151 (Redo)/19 - Resonance.md",
+    "EEE - 1151 (Redo)/18 - Reciprocity.md",
+    "EEE - 1151 (Redo)/17 - Millman's Theorem.md",
+    "EEE - 1151 (Redo)/16 - AC Superposition.md",
+    "EEE - 1151 (Redo)/15 - AC Circuits.md",
+    "EEE - 1151 (Redo)/14 - Power.md",
+    "EEE - 1151 (Redo)/13 - RMS.md",
+    "EEE - 1151 (Redo)/12 - Impedance.md",
+    "EEE - 1151 (Redo)/11 - Phasor.md",
+    "EEE - 1151 (Redo)/10 - Maximum Power.md",
+    "EEE - 1151 (Redo)/9 - Norton.md",
+    "EEE - 1151 (Redo)/8 - Thevenin.md",
+    "EEE - 1151 (Redo)/7 - Superposition.md",
+    "EEE - 1151 (Redo)/6 - Source Transformation.md",
+    "EEE - 1151 (Redo)/5 - Mesh.md",
+    "EEE - 1151 (Redo)/4 - Node.md",
+    "EEE - 1151 (Redo)/3 - Resistance.md",
+    "EEE - 1151 (Redo)/2 - Law.md",
+    "EEE - 1151 (Redo)/1 - Introduction.md",
+    "0 - Images/Pasted image 20250406080034.png",
+    "EEE - 1151 (Redo)/PYC.md",
+    "0 - Images/Pasted image 20250406081741.png",
+    "0 - Images/Pasted image 20250406081729.png",
+    "0 - Images/Pasted image 20250406081708.png",
+    "0 - Images/Pasted image 20250406081636.png",
+    "0 - Images/Pasted image 20250406081624.png",
+    "0 - Images/Pasted image 20250406081613.png",
+    "0 - Images/Pasted image 20250406081558.png",
+    "0 - Images/Pasted image 20250406081544.png",
+    "0 - Images/Pasted image 20250406081531.png",
+    "MATH - 1113/PYC.md",
+    "EEE - 1151 (Redo)/20 - Filter.md",
+    "MATH - 1113/Integral Calculus/3 - General Properties and Reduction Formula.md",
+    "EEE - 1151 (Redo)",
+    "MATH - 1113/Integral Calculus/4 - Gamma Beta Function.md",
+    "MATH - 1113/Integral Calculus/2 - First Principle.md",
+    "MATH - 1113/Differential Calculus Redo",
+    "0 - Images.zip",
+    "0 - Images.rar",
+    "Board Viva",
+    "CSE - 1100",
+    "EEE - 1152",
+    "EEE - 1151/Untitled",
+    "0 - Images/Born Haber examples.pdf",
+    "MATH - 1113/Integral Calculus"
+  ]
+}
