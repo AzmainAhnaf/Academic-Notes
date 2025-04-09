@@ -5,7 +5,7 @@ There are two types of filter that exists, Active filter and passive filter. For
 
 A typical lowpass filter is formed when the output of an RC circuit is taken off the capacitor as shown in the following figure.
 ![[Pasted image 20250402105351.png]]
-The transfer function
+The [[19 - Resonance#Transfer Function|transfer function]]
 $$
 H(\omega) = \frac{V_o}{V_i} = \frac{1 / j \omega C}{R + 1 / j \omega C} = \frac{1}{1 + j \omega RC}
 $$Note that, $H(0) = 1$, $H(\infty) = 0$
@@ -27,7 +27,7 @@ A lowpass filter can also be formed when the output of an RL circuit is taken of
 
 A highpass filter is formed when the output of an RC circuit is taken off the resistor as shown in the following figure.
 ![[Pasted image 20250402112627.png]]
-The transfer function is,
+The [[19 - Resonance#Transfer Function|transfer function]] is,
 $$
 H(\omega) = \frac {V_o}{V_i} = \frac{R}{R + 1/j \omega C} = \frac{j \omega RC}{1 + j \omega RC}
 $$
@@ -47,13 +47,13 @@ A highpass filter can also be formed when the output of an RL circuit is taken o
 
 The RLC series resonant circuit provides a bandpass filter when the output is taken off the resistor as shown in the following figure.
 ![[Pasted image 20250402114045.png]]
-The transfer function is,
+The [[19 - Resonance#Transfer Function|transfer function]] is,
 $$
 H(\omega) = \frac{V_o}{V_i} = \frac R{R + j(\omega L - 1/\omega C)}
 $$
 We observe that $H(0) = 0$, $H(\infty) = 0$.
 ![[Pasted image 20250402114307.png]]
-The bandpass filter passes a band of frequencies $(\omega_1 < \omega < \omega_2)$ centered on $\omega_0$, the center frequency, which is given by
+The bandpass filter passes a band of frequencies $(\omega_1 < \omega < \omega_2)$ centered on $\omega_0$, the center frequency, which is given by \([[19 - Resonance#Series Resonance|Learn More!!]])
 $$
 \omega_0 = \frac{1}{\sqrt{LC}}
 $$

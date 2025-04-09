@@ -13,9 +13,9 @@ P = V_{rms}I_{rms}\cos{(\theta_v - \theta_i)}
 $$
 Here $\cos{(\theta_v - \theta_i)}$ is called the power factor
 
-The power factor is the cosine of the phase difference between voltage and current
+The power factor is the cosine of the [[11 - Phasor#Phase Angles|phase difference]] between voltage and current
 
-Impedance is
+[[12 - Impedance#Impedance|Impedance]] is
 $$
 Z = \frac VI = \frac{V_{rms}}{I_{rms}} = \frac{v_{rms}}{i_{rms}}\angle{(\theta_v - \theta_i)}
 $$
@@ -23,7 +23,7 @@ The power factor is also called the cosine of the angle of the load impedance.
 
 **Apparent Power**:
 
-The apparent power (in VA) is the product of the rms values of voltage and current
+The apparent power (in VA) is the product of the [[13 - RMS#RMS Value|rms values]] of voltage and current
 $$
 S = V_{rms}I_{rms}
 $$
@@ -60,7 +60,7 @@ $$
 $$
 = V_{rms}I_{rms}\cos{(\theta_v - \theta_i)} + jV_{rms}I_{rms}\sin{(\theta_v - \theta_i)}
 $$
-Real part of the complex power is called real power or average power. Average or real power depends on the load's resistance
+Real part of the complex power is called [[14 - Power#Power|real power or average power]]. Average or real power depends on the load's resistance
 $$
 P = V_{rms}I_{rms}\cos{(\theta_v - \theta_i)} = I^2_{rms}R
 $$
@@ -80,9 +80,9 @@ Reactive power is being transferred back and forth between the load and the sour
 
 Unit of reactive power is volt-ampere reactive (VAR)
 
-1. $Q = 0$ for resistive loads (unity pf)
-2. $Q < 0$ for capacitive loads (leading pf)
-3. $Q > 0$ for inductive loads (lagging pf)
+1. $Q = 0$ for [[12 - Impedance#11 - Phasor Phasor Relationships for 3 - Resistance Resistor|resistive]] loads (unity pf)
+2. $Q < 0$ for [[12 - Impedance#11 - Phasor Phasor Relationships for 12 - Impedance Capacitors Capacitor|capacitive]] loads (leading pf)
+3. $Q > 0$ for [[12 - Impedance#11 - Phasor Phasor Relationships for 12 - Impedance Inductor Inductor|inductive]] loads (lagging pf)
 
 
 Complex power (in VA) is the product of the RMS voltage phasor and the complex conjugate of the RMS current phasor.

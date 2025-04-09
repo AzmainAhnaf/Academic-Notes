@@ -250,3 +250,6 @@ Five types of energy can be considered
 - Calculate the heat of formation
 - Determining whether the crystal will be formed or not
 - Determining the stability of the atom
+
+
+[[2 - Chemical Bonds PYC|Past Year Questions]]

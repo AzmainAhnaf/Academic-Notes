@@ -1,12 +1,12 @@
 
 # Capacitors
 
-- A capacitor is a passive element
+- A capacitor is a [[1 - Introduction#Circuit Elements|passive element]]
 - Capacitor stores energy in its electric field
 - A capacitor consists of two conducting plates separated by an insulator (or dielectric)
 - Plates may be aluminum foil the dielectric may be air, ceramic, paper etc.
 ![[Pasted image 20250401070559.png|300]]
-- When a voltage source is connected to the capacitor, the source deposits a positive charge $q$ on one plate
+- When a voltage [[1 - Introduction#Source|source]] is connected to the capacitor, the source deposits a positive charge $q$ on one plate
 ![[Pasted image 20250401070807.png]]
 - A negative charge deposits on the other plate. The capacitor store the electric charge.
 - The amount of charge stored, represented by $q$, is directly proportional to the applied voltage so that
@@ -33,9 +33,9 @@ $$
 $$
 w = \frac 12 Cv^2
 $$
-- A capacitor is an open circuit to dc
+- A capacitor is an [[2 - Law#Open Circuit|open circuit]] to dc
 ![[Pasted image 20250401071926.png]]
-- The ideal capacitor does not dissipate energy. It takes power from the circuit when storing energy in its field and return previously stored energy when delivering power to the circuit
+- The ideal capacitor does not dissipate energy. It takes [[14 - Power|power]] from the circuit when storing energy in its field and return previously stored energy when delivering power to the circuit
 
 
 **Equivalent Capacitance:**
@@ -58,7 +58,7 @@ $$
 
 # Inductor
 
-- Inductor is a passive element
+- Inductor is a [[1 - Introduction#Circuit Elements|passive element]]
 - Inductor store energy in its magnetic field
 - An inductor consists of a coil of conducting wire
 	![[Pasted image 20250401072510.png]]
@@ -71,7 +71,7 @@ $$
 $$
 w = \frac 12 Li^2
 $$
-- An inductor acts like a short circuit to dc
+- An inductor acts like a [[2 - Law#Short Circuit|short circuit]] to dc
 	![[Pasted image 20250401072701.png]]
 - Ideal inductor does not dissipate energy. The energy stored in it can be returned at a later time.
 
@@ -88,9 +88,9 @@ $$
 $$
 
 
-# Phasor Relationships for Resistor
+# [[11 - Phasor|Phasor]] Relationships for [[3 - Resistance|Resistor]]
 
-Assume, current through a resistor $R$ is
+Assume, current through a [[3 - Resistance|resistor]] $R$ is
 $$
 i = I_m\cos{(\omega t + \phi)}
 $$
@@ -100,32 +100,32 @@ voltage across the resistor is
 $$
 v = iR = RI_m\cos{(\omega t + \phi)}
 $$
-Phasor form of this voltage is
+[[11 - Phasor|Phasor]] form of this voltage is
 $$
 V = RI_m\angle \phi
 $$
-Phasor representation of the current is
+[[11 - Phasor|Phasor]] representation of the current is
 $$
 I = I_m\angle \phi
 $$
-Voltage-current relationship in phasor form is
+Voltage-current relationship in [[11 - Phasor|phasor]] form is
 $$
 V = RI
 $$
-Voltage-current relation for the resistor in the phasor domain is shown in the following figure
+Voltage-current relation for the resistor in the [[11 - Phasor|phasor]] domain is shown in the following figure
 ![[Pasted image 20250401080654.png]]
 Voltage and current are in phase
 
 
-# Phasor Relationships for Inductor
+# [[11 - Phasor|Phasor]] Relationships for [[12 - Impedance#Inductor|Inductor]]
 
-Assume the current through the inductor is
+Assume the current through the [[12 - Impedance#Inductor|inductor]] is
 $$
 i = I_m\cos{(\omega t + \phi)}
 $$
 ![[Pasted image 20250401080933.png]]
 
-Voltage across the inductor is
+Voltage across the [[12 - Impedance#Inductor|inductor]] is
 $$
 v = L\frac{di}{dt}
 $$
@@ -144,21 +144,21 @@ $$
 $$
 \therefore V = j\omega LI
 $$
-Phasor diagram for inductor is
+[[11 - Phasor|Phasor]] diagram for inductor is
 ![[Pasted image 20250401081445.png]]
 
-Phase angle between voltage and current = $(\phi + 90 \degree) - \phi$ = $90 \degree$
+[[11 - Phasor#Phase Angles|Phase angle]] between voltage and current = $(\phi + 90 \degree) - \phi$ = $90 \degree$
 Voltage leads current by $90 \degree$
 Current lags voltage by $90 \degree$
 
 
-# Phasor Relationships for Capacitor
+# [[11 - Phasor|Phasor]] Relationships for [[12 - Impedance#Capacitors|Capacitor]]
 
-Assume the voltage across capacitor is
+Assume the voltage across [[12 - Impedance#Capacitors|capacitor]] is
 $$
 v(t) = V_m\cos{(\omega t + \phi)}
 $$
-Current through the capacitor is
+Current through the [[12 - Impedance#Capacitors|capacitor]] is
 $$
 i = C\frac{dv}{dt}
 $$
@@ -174,7 +174,7 @@ $$
 $$
 I = j\omega CV
 $$
-phase angle between voltage and current = $\phi - (\phi + 90 \degree)$ = $-90 \degree$
+[[11 - Phasor#Phase Angles|phase angle]] between voltage and current = $\phi - (\phi + 90 \degree)$ = $-90 \degree$
 Voltage lags current by $90 \degree$
 
 Phasor diagram for capacitor is
@@ -188,7 +188,7 @@ Phasor diagram for capacitor is
 | C       | $i = C\frac{dv}{dt}$  | $V = \frac{I}{j \omega C}$ |
 # Impedance
 
-Voltage-current relations for the three passive elements are given in the above table, those equations may be written in terms of the ration of the phasor voltage to the phasor current as
+Voltage-current relations for the three [[1 - Introduction#Circuit Elements|passive elements]] are given in the above table, those equations may be written in terms of the ratio of the [[11 - Phasor|phasor]] voltage to the [[11 - Phasor|phasor]] current as
 $$
 \frac VI = R
 $$
@@ -198,23 +198,23 @@ $$
 $$
 \frac VI = \frac 1{j \omega C}
 $$
-Ohm's law in phasor form for any type of element as
+[[2 - Law#Ohm's Law|Ohm's law]] in [[11 - Phasor|phasor]] form for any type of [[1 - Introduction#Circuit Elements|element]] as
 $$
 Z = \frac VI\ or,\ V = ZI
 $$
-Where $Z$ is a frequency-dependent quantity known as impedance, measure in ohms
+Where $Z$ is a [[11 - Phasor#Sinusoids|frequency]]-dependent quantity known as impedance, measure in ohms
 
-The impedance $Z$ of a circuit is the ration of the phasor voltage $V$ to the phasor current $I$
+The impedance $Z$ of a circuit is the ratio of the [[11 - Phasor|phasor]] voltage $V$ to the [[11 - Phasor|phasor]] current $I$
 
-The impedance of resistor is
+The impedance of [[12 - Impedance#11 - Phasor Phasor Relationships for 3 - Resistance Resistor|resistor]] is
 $$
 Z = R
 $$
-The impedance of inductor is
+The impedance of [[12 - Impedance#11 - Phasor Phasor Relationships for 12 - Impedance Inductor Inductor|inductor]] is
 $$
 Z = j \omega L
 $$
-The impedance of capacitor is
+The impedance of [[12 - Impedance#11 - Phasor Phasor Relationships for 12 - Impedance Capacitors Capacitor|capacitor]] is
 $$
 Z = \frac1 {j \omega C}
 $$
@@ -275,16 +275,16 @@ Unit of admittance, conductance, susceptance is siemens (or mhos)
 
 # Circuit Theorem
 
-Kirchhoff's voltage law and current law can also be applied in phasor form resulting in following two equations
-In a mesh, 
+[[2 - Law#Kirchhoff's Voltage Law (KVL)|Kirchhoff's voltage law]] and [[2 - Law#Kirchhoff's Current Law (KCL)|current law]] can also be applied in phasor form resulting in following two equations
+In a [[5 - Mesh|mesh]], 
 $$
 V_1 + V_2 + \ ...\ + V_n = 0
 $$
-In a node,
+In a [[4 - Node|node]],
 $$
 I_1 + I_2 +\ ...\ I_n = 0
 $$
-Ohm's law in phasor form 
+[[2 - Law#Ohm's Law|Ohm's law]] in [[11 - Phasor|phasor]] form 
 $$
 V = ZI
 $$
@@ -296,7 +296,7 @@ $$
 
 The same current $I$ flows through the impedances
 
-Applying KVL around the loop
+Applying [[2 - Law#Kirchhoff's Voltage Law (KVL)|KVL]] around the loop
 $$
 V = V_1 + V_2 + \ ...\ V_N = I(Z_1 + Z_2 +\ ...\ Z_N)
 $$
@@ -310,7 +310,7 @@ $$
 
 The voltage across each impedance is the same
 
-Applying KCL at the top node,
+Applying [[2 - Law#Kirchhoff's Current Law (KCL)|KCL]] at the top node,
 $$
 I = I_1 + I_2 + \ ...\ I_N = V(\frac 1{Z_1} + \frac 1{Z_2} + \ ...\ + \frac 1{Z_N})
 $$
@@ -319,7 +319,7 @@ $$
 \frac 1{Z_{eq}} = \frac IV = \frac 1{Z_1} + \frac 1{Z_2} + \ ...\ + \frac 1{Z_N}
 $$
 
-Delta-to-wye and wye-to-delta transformations for impedance is same as resistive circuit
+[[3 - Resistance#Wye-Delta Transformations|Delta-to-wye]] and wye-to-delta transformations for impedance is same as resistive circuit
 
 ![[Pasted image 20250401091024.png]]
 

@@ -758,3 +758,6 @@ Examples of non-ideal solution with negative deviation
 1. Pyridine-acetic acid
 2. Chloroform-acetone
 3. Water-nitric acid, formic acid, or halogen acid
+
+
+[[1 - Solution - PYC|Past Year Questions]]

@@ -1061,3 +1061,6 @@ Fuel cells work like batteries, but they do not run down or need recharging. The
 - Reduced pollution
 - Quiet operation
 - Flexibility
+
+
+[[4 - Electrochemistry - PYC|Past Year Questions]]

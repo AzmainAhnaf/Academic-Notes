@@ -55,7 +55,7 @@ When the resonance condition is met,
 
 ![[Pasted image 20250402085037.png|400]]
 
-The average power dissipated by the RLC circuit is,
+The average [[14 - Power|power]] dissipated by the RLC circuit is,
 $$
 P(\omega) = \frac 12I_2R
 $$

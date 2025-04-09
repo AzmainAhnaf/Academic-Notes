@@ -12,7 +12,7 @@ Mesh currents is used as the circuit variables
 **Steps to Determine Mesh Currents**
 
 1. Assign mesh currents $i_1,\ i_2,\ ...\ ...\ ,\ i_n$ to the $n$ meshes
-2. Apply KVL to each of the $n$ meshes. Use Ohm's law to express the voltages in terms of mesh currents
+2. Apply [[2 - Law#Kirchhoff's Voltage Law (KVL)|KVL]] to each of the $n$ meshes. Use Ohm's law to express the voltages in terms of mesh currents
 3. Solve the resulting $n$ simultaneous equations to get the mesh currents
 
 
@@ -24,4 +24,4 @@ When a current source exist only in one mesh, mesh current can be determined dir
 ![[Pasted image 20250328025202.png]]
 
 When a current source exists between two meshes, we create a supermesh by excluding the current source and any elements connected in series with it.
-![[Pasted image 20250328025241.png]]''
+![[Pasted image 20250328025241.png]]

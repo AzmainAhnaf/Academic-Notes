@@ -40,12 +40,10 @@ Circuit elements are two types
 **An active element is capable of generating energy**
 - Generator
 
-**An passive element can not generate energy**
+**A [[12 - Impedance|passive element]] can not generate energy**
 - Resistor
 - Inductor
 - Capacitor
-
-
 
 # Source
 

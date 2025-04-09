@@ -6,7 +6,7 @@ Nodal analysis provides a procedure for analyzing circuits using node voltages a
 **Steps to Determine Node Voltages** \[Important]
 
 1. Select a node as the reference node. Assign voltages $v_1$, $v_2$,..., $v_{n - 1}$ to the remaining $n - 1$ nodes. The voltages are reference with respect to the reference node.
-2. Apply KCL to each of the $n - 1$ nonreference nodes. Use Ohm's law to express the branch currents in terms of node voltages.
+2. Apply [[2 - Law#Kirchhoff's Current Law (KCL)|KCL]] to each of the $n - 1$ nonreference nodes. Use Ohm's law to express the branch currents in terms of node voltages.
 3. Solve the resulting simultaneous equations to obtain the unknown node voltages.
 
 
@@ -26,5 +26,6 @@ A supernode is formed by enclosing a (dependent or independent) voltage source c
 
 A supernode has no voltage of its own
 
-A supernode requires the application of both KCL and KVL
+A supernode requires the application of both [[2 - Law#Kirchhoff's Current Law (KCL)|KCL]] and [[2 - Law#Kirchhoff's Voltage Law (KVL)|KVL]]
+
 

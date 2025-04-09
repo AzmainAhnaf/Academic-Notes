@@ -388,3 +388,5 @@ However, ionic crystals of salts e.g., sodium chloride, displacement of one laye
 #### Electron Emission
 
 When enough heat energy is applied to a metal to overcome the attraction between the positive metal ions and an outer electron, the electron, the electron is emitted from the metallic atom. When the frequency and therefore the energy of the light that strikes the metal is great enough to overcome the attractive forces, the electron escapes from the metal with a resultant decrease in the energy of the incident photo, (photoelectric effect)
+
+[[2 - Chemical Bonds PYC|Past Year Questions]]

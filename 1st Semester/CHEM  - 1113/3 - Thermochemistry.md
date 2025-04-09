@@ -387,3 +387,6 @@ $$
 The heat of combustion of ethylene at $17\degree C$ and at constant volume is $-332.19\ kcal$. Calculate the heat of combustion at constant pressure consider water to be in liquid state. $R = 2\ cal\ deg^{-1}\ mol^{-1}$ 
 
 answer: $-333.3\ kcal$
+
+
+[[3 - Thermochemistry - PYC|Past Year Questions]]

@@ -367,3 +367,5 @@ Explanation: In a chemiluminescent reaction, the energy released in the reaction
 | Time period in absorption and emission of energy is very short                                                  | Time period in absorption and emission of energy is comparatively long                                  |
 | Do not change the direction of spin                                                                             | Involving in changing the direction of spin                                                             |
 | Emission of wave length is longer than incident light                                                           | Emission of wave length is longer than that of fluorescence                                             |
+
+[[5.5 - Photochemistry & Spectroscopy - PYC|Past Year Questions]]

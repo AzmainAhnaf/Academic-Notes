@@ -7,7 +7,7 @@ The two resistors are in series, since the same current $i$ flows in both of the
 
 Voltage across in each resistors are $v_1 = iR_1$ and $v_2 = iR_2$
 
-Applying KVL to loop, we obtain
+Applying [[2 - Law#Kirchhoff's Voltage Law (KVL)|KVL]] to loop, we obtain
 
 $$
 -v + v_1 + v_2 = 0
@@ -68,7 +68,7 @@ $$
 $$
 i_1 = \frac v{R_1} \text{ and } i_2 = \frac v{R_2}
 $$
-Applying KCL to node $a$, we obtain
+Applying [[2 - Law#Kirchhoff's Current Law (KCL)|KCL]] to node $a$, we obtain
 $$
 i = i_1 + i_2 = \frac v{R_1} + \frac v{R_2} = v \left( \frac 1{R_1} + \frac 1{R_2} \right) = \frac v{R_{eq}}
 $$

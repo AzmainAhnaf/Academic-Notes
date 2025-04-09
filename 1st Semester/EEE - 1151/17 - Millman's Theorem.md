@@ -3,7 +3,7 @@ Through the application of Millman's theorem, any number of parallel voltage sou
 
 ![[Pasted image 20250402064232.png]]
 
-Firstly, we need to convert each of the voltage source to it's corresponding current source by applying source transformation
+Firstly, we need to convert each of the voltage source to it's corresponding current source by applying [[6 - Source Transformation|source transformation]]
 ![[Pasted image 20250402064325.png]]
 
 Then, we need to combine all the parallel current sources.

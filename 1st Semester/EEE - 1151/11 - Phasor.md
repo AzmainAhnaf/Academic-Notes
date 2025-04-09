@@ -89,6 +89,8 @@ $$
 \cos{(\omega t \pm 90 \degree)} = \mp \sin{(\omega t)}
 $$
 
+## Phase Angles
+
 Consider the following two equations
 $$
 v_1 = 10\sin{(\omega t - 40 \degree)}

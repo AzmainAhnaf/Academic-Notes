@@ -242,3 +242,5 @@ The radiation emitted by the source is split into two identical beams having equ
 5. Distinguishing positional isomers of a compound
 6. Useful for identifying isomers
 7. It may also be used for quantitative analysis of a mixture of compounds, in pollution detection, in milk analysis etc.
+
+[[5.5 - Photochemistry & Spectroscopy - PYC|Past Year Questions]]

@@ -1,7 +1,7 @@
 
 Ideal voltage source have no internal resistance
 
-Practical voltage source have series connected small internal resistance
+Practical voltage source have series connected small internal [[3 - Resistance|resistance]]
 ![[Pasted image 20250328030007.png]]
 
 Ideal current source have internal resistance. Internal resistance and current source are connected in parallel. Value of internal resistance is infinite.
@@ -12,10 +12,10 @@ A voltage source in series with a resistor can be transformed to a current sourc
 
 The two circuits in above figure are equivalent when they have the same voltage-current relation at terminals a-b
 
-When terminals a-b of circuit-1 are short circuited, then the short-circuit current flowing from $a$ to $b$ is $i_{sc} = \frac{v_s}R$.
+When terminals a-b of circuit-1 are short circuited, then the [[2 - Law#Short Circuit|short-circuit]] current flowing from $a$ to $b$ is $i_{sc} = \frac{v_s}R$.
 ![[Pasted image 20250328030815.png|259]]
 
-When terminals a-b of circuit-2 are short-circuited, then the short-circuit current flowing from $a$ to $b$ is $i_{sc} = i_s$.
+When terminals a-b of circuit-2 are short-circuited, then the [[2 - Law#Short Circuit|short-circuit]] current flowing from $a$ to $b$ is $i_{sc} = i_s$.
 ![[Pasted image 20250328030722.png|250]]
 
 
