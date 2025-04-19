@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "38518c8a18260075",
+            "id": "0e7a77924b7e3298",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EEE - 1151/12 - Impedance.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "12 - Impedance"
-            }
-          },
-          {
-            "id": "512743292fcfdc00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EEE - 1151/PYC.md",
+                "file": "HUM - 1113/4 - Paragraph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PYC"
+              "title": "4 - Paragraph"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.50152587890625
+    "width": 232.50152587890625,
+    "collapsed": true
   },
   "right": {
     "id": "4b6f178e9a2fbe0f",
@@ -178,53 +164,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23907d3a29e5d6e2",
+  "active": "0e7a77924b7e3298",
   "lastOpenFiles": [
-    "EEE - 1151/PDFs/PYC.pdf",
-    "EEE - 1151/13 - RMS.md",
-    "EEE - 1151/12 - Impedance.md",
-    "Tmp.md",
-    "EEE - 1151/2 - Law.md",
-    "EEE - 1151/20 - Filter.md",
+    "HUM - 1113/PDFs/11 - AI in Technical Writing.pdf",
+    "HUM - 1113/PDFs/10 - Types of Technical Reports.pdf",
+    "HUM - 1113/PDFs/9 - Meeting Minutes.pdf",
+    "HUM - 1113/PDFs/8 - Technical Report Writing.pdf",
+    "HUM - 1113/PDFs/7 - Cover Letter.pdf",
+    "HUM - 1113/PDFs/6 - Memo.pdf",
+    "HUM - 1113/PDFs/5 - Reading Strategies.pdf",
+    "HUM - 1113/PDFs/4 - Paragraph.pdf",
+    "HUM - 1113/PDFs/3 - Amplification.pdf",
+    "HUM - 1113/PDFs/2 - Structural Category.pdf",
+    "HUM - 1113/PDFs/1 - Functional Category.pdf",
+    "HUM - 1113/3 - Amplification.md",
+    "HUM - 1113/PYC.md",
+    "HUM - 1113/11 - AI in Technical Writing.md",
+    "HUM - 1113/10 - Types of Technical Reports.md",
+    "HUM - 1113/9 - Meeting Minutes.md",
+    "HUM - 1113/8 - Technical Report Writing.md",
+    "HUM - 1113/7 - Cover Letter.md",
+    "HUM - 1113/6 - Memo.md",
+    "HUM - 1113/5 - Reading Strategies.md",
+    "HUM - 1113/4 - Paragraph.md",
+    "HUM - 1113/2 - Structural Category.md",
+    "HUM - 1113/1 - Functional Category.md",
+    "HUM - 1113/0 - Course Information.md",
+    "HUM - 1113/HUM - 1113.md",
+    "0 - Images/Pasted image 20250419120119.png",
+    "0 - Images/Pasted image 20250419121052.png",
+    "0 - Images/Pasted image 20250419121035.png",
+    "0 - Images/Pasted image 20250419121020.png",
+    "0 - Images/Pasted image 20250419120933.png",
+    "0 - Images/Pasted image 20250419120912.png",
+    "0 - Images/Pasted image 20250419120842.png",
+    "0 - Images/Pasted image 20250419120753.png",
+    "0 - Images/Pasted image 20250419120735.png",
+    "0 - Images/Pasted image 20250419120623.png",
     "EEE - 1151/19 - Resonance.md",
-    "EEE - 1151/11 - Phasor.md",
-    "EEE - 1151/18 - Reciprocity.md",
-    "EEE - 1151/17 - Millman's Theorem.md",
-    "EEE - 1151/16 - AC Superposition.md",
-    "EEE - 1151/15 - AC Circuits.md",
-    "EEE - 1151/14 - Power.md",
+    "EEE - 1151/2 - Law.md",
     "EEE - 1151/1 - Introduction.md",
-    "EEE - 1151/10 - Maximum Power.md",
-    "EEE - 1151/9 - Norton.md",
-    "EEE - 1151/8 - Thevenin.md",
-    "EEE - 1151/7 - Superposition.md",
-    "EEE - 1151/6 - Source Transformation.md",
+    "EEE - 1151/11 - Phasor.md",
+    "EEE - 1151/12 - Impedance.md",
+    "EEE - 1152/0 - Course Information.md",
     "EEE - 1151/3 - Resistance.md",
-    "EEE - 1151/5 - Mesh.md",
-    "EEE - 1151/4 - Node.md",
-    "CHEM  - 1113/8 - Rough.md",
-    "MATH - 1113/Differential Calculus/Differential Calculus.md",
-    "MATH - 1113/MATH - 1113.md",
-    "MATH - 1113/Integral Calculus/Integral Calculus.md",
-    "EEE - 1151/PDFs/16 - AC Superposition.pdf",
-    "EEE - 1151/PDFs/9 - Norton.pdf",
-    "EEE - 1151/PDFs/8 - Thevenin.pdf",
-    "EEE - 1151/PDFs/7 - Superposition.pdf",
-    "EEE - 1151/PDFs/6 - Source Transformation.pdf",
-    "EEE - 1151/PDFs/5 - Mesh.pdf",
-    "EEE - 1151/PDFs/4 - Node.pdf",
-    "EEE - 1151/PDFs/3 - Resistance.pdf",
-    "EEE - 1151/PDFs/20 - Filter.pdf",
-    "EEE - 1151/PDFs/2 - Law.pdf",
-    "0 - Images/Pasted image 20250406080034.png",
-    "0 - Images/Pasted image 20250406081741.png",
-    "0 - Images/Pasted image 20250406081729.png",
-    "0 - Images/Pasted image 20250406081708.png",
-    "0 - Images/Pasted image 20250406081636.png",
-    "0 - Images/Pasted image 20250406081624.png",
-    "0 - Images/Pasted image 20250406081613.png",
-    "0 - Images/Pasted image 20250406081558.png",
-    "0 - Images/Pasted image 20250406081544.png",
-    "0 - Images/Pasted image 20250406081531.png"
+    "EEE - 1151/20 - Filter.md",
+    "EEE - 1151/13 - RMS.md",
+    "EEE - 1151/14 - Power.md",
+    "EEE - 1151/15 - AC Circuits.md"
   ]
 }

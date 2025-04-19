@@ -27,7 +27,7 @@ Tip: Avoid including irrelevant details that do not align with the main idea.
 Definition: Coherence refers to the logical flow and connection between sentences
 
 - How to Achieve Coherence
-	- Use transitional words like however, therefor, in addition
+	- Use transitional words like however, therefore, in addition
 	- Arrange sentences in a logical order (chronological, spatial, or importance-based)
 
 Tip: Ensure that each sentence naturally follows from the previous one.

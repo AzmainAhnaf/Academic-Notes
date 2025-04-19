@@ -12,10 +12,10 @@ H(\omega) = \frac{Y(\omega)}{X(\omega)}
 $$
 Assuming zero initial conditions. Since the input and output can be either voltage or current at ay place in the circuit, there are four possible transfer functions:
 
-	$H(\omega) = \text{Voltage gain} = \frac{V_o(\omega)}{V_i(\omega)}$
-	$H(\omega) = \text{Current gain} = \frac{I_o(\omega)}{I_i(\omega)}$
-	$H(\omega) = \text{Transfer Impedance} = \frac{V_o(\omega)}{I_i(\omega)}$
-	$H(\omega) = \text{Transfer Admittance} = \frac{I_o(\omega)}{V_i(\omega)}$
+$H(\omega) = \text{Voltage gain} = \frac{V_o(\omega)}{V_i(\omega)}$
+$H(\omega) = \text{Current gain} = \frac{I_o(\omega)}{I_i(\omega)}$
+$H(\omega) = \text{Transfer Impedance} = \frac{V_o(\omega)}{I_i(\omega)}$
+$H(\omega) = \text{Transfer Admittance} = \frac{I_o(\omega)}{V_i(\omega)}$
 
 
 # Series Resonance
@@ -57,7 +57,7 @@ When the resonance condition is met,
 
 The average [[14 - Power|power]] dissipated by the RLC circuit is,
 $$
-P(\omega) = \frac 12I_2R
+P(\omega) = \frac 12I^2R
 $$
 The highest power dissipated occurs at resonance, when $I = V_m/R$, so that
 $$
@@ -65,7 +65,7 @@ P(\omega_0) = \frac 12 \frac{V_m^2}{R}
 $$
 At certain frequencies $\omega = \omega_1, \omega_2$, the dissipated power is half the maximum value; that is,
 $$
-P(\omega_1) - P(\omega_2) = \frac 12 \cdot \frac{(V_m/\sqrt2)^2}{2} = \frac{V_m^2}{4R}
+P(\omega_1) = P(\omega_2) = \frac 12 \cdot \frac{(V_m/\sqrt2)^2}{2} = \frac{V_m^2}{4R}
 $$
 Hence, $\omega_1$ and $\omega_2$ are called the half-power frequencies or cutoff frequency.
 
@@ -103,7 +103,7 @@ Q = 2\pi\frac{\text{Peak energy stored in the circuit}}{\text{Energy dissipated 
 $$
 It is also regarded as a measure of the energy storage property of a circuit in relation to its energy dissipation property. In the series RLC circuit, the peak energy stored is $\frac 12 LI^2$ or $\frac 12 CV^2$, while the energy dissipated in one period is $\frac 12(I^2R) \times T$ where $T = \frac 1{f_0}$
 $$
-Q = 2 \pi\frac{\frac 12 LI^2}{\frac 12 I_2R(1/f_0)} = \frac{2\pi f_0L}{R}
+Q = 2 \pi\frac{\frac 12 LI^2}{\frac 12 I^2R(1/f_0)} = \frac{2\pi f_0L}{R}
 $$
 By plotting, $f_0 = \omega_0 / 2\pi$ 
 $$

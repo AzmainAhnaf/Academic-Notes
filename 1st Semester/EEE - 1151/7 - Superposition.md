@@ -30,7 +30,7 @@ $$
 
 # Linearity Property
 
-**The linearity property is a combination of both the [[7 - Superposition#Homogeneity Property|homogeneity property]] and the [[7 - Superposition#Additivity Property|homogeneity property]]**
+**The linearity property is a combination of both the [[7 - Superposition#Homogeneity Property|homogeneity property]] and the [[7 - Superposition#Additivity Property|additivity property]]**
 
 A circuit is linear if it has both additive and homogenous property
 

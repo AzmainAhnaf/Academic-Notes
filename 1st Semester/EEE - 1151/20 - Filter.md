@@ -6,9 +6,8 @@ There are two types of filter that exists, Active filter and passive filter. For
 A typical lowpass filter is formed when the output of an RC circuit is taken off the capacitor as shown in the following figure.
 ![[Pasted image 20250402105351.png]]
 The [[19 - Resonance#Transfer Function|transfer function]]
-$$
-H(\omega) = \frac{V_o}{V_i} = \frac{1 / j \omega C}{R + 1 / j \omega C} = \frac{1}{1 + j \omega RC}
-$$Note that, $H(0) = 1$, $H(\infty) = 0$
+$H(\omega) = \frac{V_o}{V_i} = \frac{1 / j \omega C}{R + 1 / j \omega C} = \frac{1}{1 + j \omega RC}$
+Note that, $H(0) = 1$, $H(\infty) = 0$
 ![[Pasted image 20250402110843.png]]
 $$
 H(\omega_c) = \frac 1{\sqrt{1 + \omega_c^2R^2C^2}} = \frac 1 {\sqrt 2}
