@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b6d1d10aa5add415",
+        "id": "015b6075753e2595",
         "type": "tabs",
         "children": [
           {
-            "id": "0e7a77924b7e3298",
+            "id": "70b2b234770064a3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "0 - Images/Pasted image 20250420133839.png"
+                "file": "CSE - 1101/5 - Custom Data Types.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250420133839"
+              "icon": "lucide-file",
+              "title": "5 - Custom Data Types"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.50152587890625
+    "width": 232.50152587890625,
+    "collapsed": true
   },
   "right": {
     "id": "4b6f178e9a2fbe0f",
@@ -161,21 +164,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23907d3a29e5d6e2",
+  "active": "70b2b234770064a3",
   "lastOpenFiles": [
+    "CSE - 1101/5 - Custom Data Types.md",
+    "CSE - 1101/4 - Pointer.md",
+    "CSE - 1101/3 - Function.md",
+    "CSE - 1101/2 - Selection Statements.md",
+    "CSE - 1101/1 - Introduction to Basic Concepts.md",
+    "Tmp.md",
+    "CSE - 1101/0 - Course Information.md",
+    "CSE - 1100/0 - Course Information.md",
+    "CSE - 1101",
+    "HUM - 1113/PYC.md",
+    "HUM - 1113/HUM - 1113.md",
+    "HUM - 1113/12 - Phonetics.md",
     "HUM - 1113/11 - AI in Technical Writing.md",
     "HUM - 1113/10 - Types of Technical Reports.md",
-    "HUM - 1113/12 - Phonetics.md",
-    "0 - Images/Pasted image 20250420134257.png",
-    "0 - Images/Pasted image 20250420134109.png",
-    "0 - Images/Pasted image 20250420133839.png",
     "HUM - 1113/9 - Meeting Minutes.md",
     "HUM - 1113/8 - Technical Report Writing.md",
-    "HUM - 1113/7 - Cover Letter.md",
+    "HUM - 1113/7 - Cover Letter & CV.md",
     "HUM - 1113/6 - Memo.md",
     "HUM - 1113/5 - Reading Strategies.md",
     "HUM - 1113/4 - Paragraph.md",
+    "HUM - 1113/3 - Amplification.md",
+    "HUM - 1113/2 - Structural Category.md",
+    "HUM - 1113/1 - Functional Category.md",
     "HUM - 1113/0 - Course Information.md",
+    "0 - Images/Pasted image 20250420133839.png",
+    "0 - Images/Pasted image 20250420134257.png",
+    "0 - Images/Pasted image 20250420134109.png",
     "HUM - 1113/PDFs/11 - AI in Technical Writing.pdf",
     "HUM - 1113/PDFs/10 - Types of Technical Reports.pdf",
     "HUM - 1113/PDFs/9 - Meeting Minutes.pdf",
@@ -185,12 +202,6 @@
     "HUM - 1113/PDFs/5 - Reading Strategies.pdf",
     "HUM - 1113/PDFs/4 - Paragraph.pdf",
     "HUM - 1113/PDFs/3 - Amplification.pdf",
-    "HUM - 1113/PDFs/2 - Structural Category.pdf",
-    "HUM - 1113/3 - Amplification.md",
-    "HUM - 1113/PYC.md",
-    "HUM - 1113/2 - Structural Category.md",
-    "HUM - 1113/1 - Functional Category.md",
-    "HUM - 1113/HUM - 1113.md",
     "0 - Images/Pasted image 20250419120119.png",
     "0 - Images/Pasted image 20250419121052.png",
     "0 - Images/Pasted image 20250419121035.png",
@@ -200,13 +211,6 @@
     "0 - Images/Pasted image 20250419120842.png",
     "EEE - 1151/19 - Resonance.md",
     "EEE - 1151/2 - Law.md",
-    "EEE - 1151/1 - Introduction.md",
-    "EEE - 1151/11 - Phasor.md",
-    "EEE - 1151/12 - Impedance.md",
-    "EEE - 1152/0 - Course Information.md",
-    "EEE - 1151/3 - Resistance.md",
-    "EEE - 1151/20 - Filter.md",
-    "EEE - 1151/13 - RMS.md",
-    "EEE - 1151/14 - Power.md"
+    "EEE - 1151/1 - Introduction.md"
   ]
 }

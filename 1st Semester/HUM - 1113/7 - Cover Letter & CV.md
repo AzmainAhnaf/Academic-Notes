@@ -1,4 +1,6 @@
 
+# Cover Letter
+
 - A formal document sent along with a resume or CV to apply for a job
 - It introduces the applicant to the employer and highlights the skills and experience
 
@@ -45,3 +47,46 @@ Sincerly,
 ```
 
 
+
+
+# CV
+
+AKA Curriculum Vitae
+
+- A CV is a detailed document that highlights one's academic and professional history
+
+
+## Structure
+
+\[Contact Information]
+- Name
+- Phone
+- E-mail
+- Address
+- Social Medical Handle (LinkedIn)
+\[Profile Summary / Career Objective]
+- A brief overview of your skills, experience, achievements and career goals
+\[Work Experience]
+- Job Title
+- Company Name
+- Dates of Employment (start date - end date)
+- Achievements and Responsibilities
+\[Education]
+- Degree Title
+- Institution
+- Dates of Attendance / Year
+- Result
+\[Skills]
+- i.e., Critical Thinking, Problem Solving
+\[Computer Literacy]
+\[Language]
+\[Extra Curricular Activities]
+\[Volunteer Experience]
+\[Biography]
+- Name
+- Father's Name
+- Mother's Name
+- Nationality
+- Religion
+- Marital Status
+- Permanent Address 
