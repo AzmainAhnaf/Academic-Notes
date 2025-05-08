@@ -77,7 +77,7 @@ The normal at any point $P$ to a given curve is the straight line through that p
 # Curvature
 
 **Define Curvature**
-The curvature is the rate of change of direction of the curve with respect to the arc that is the curvature at any point $P$ on the car is
+The curvature is the rate of change of direction of the curve with respect to the arc that is the curvature at any point $P$ on the curve is
 $$
 P = \lim_{\partial s \to \infty} \frac{\partial \psi}{\partial s} = \frac{d \psi}{ds}
 $$

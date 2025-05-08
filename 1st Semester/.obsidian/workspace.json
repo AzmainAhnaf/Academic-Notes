@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "PYC"
             }
+          },
+          {
+            "id": "2684c6760efbbe3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tmp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tmp"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,25 +178,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "70b2b234770064a3",
+  "active": "2684c6760efbbe3a",
   "lastOpenFiles": [
+    "CSE - 1101/1 - Introduction to Basic Concepts.md",
+    "CSE - 1101/0 - Course Information.md",
+    "MATH - 1113/PYC.md",
+    "HUM - 1113/PDFs/PYC.pdf",
+    "HUM - 1113/7 - Cover Letter & CV.md",
+    "MATH - 1113/Exam/Theory Differentiation (Lecture 7 - 17).md",
+    "MATH - 1113/Exam/Theory Differentiation (Lecture 1 - 6).md",
     "MATH - 1113/PDFs/PYC.pdf",
     "MATH - 1113/PDFs",
     "MATH - 1113/New folder",
-    "MATH - 1113/Exam/Theory Differentiation (Lecture 7 - 17).md",
-    "MATH - 1113/Exam/Theory Differentiation (Lecture 1 - 6).md",
     "MATH - 1113/Integral Calculus/4 - Gamma Beta Function.md",
     "MATH - 1113/Exam",
     "MATH - 1113/Untitled.md",
     "MATH - 1113/Integral Calculus/3 - General Properties and Reduction Formula.md",
-    "MATH - 1113/PYC.md",
     "MATH - 1113/0 - Course Information.md",
     "CSE - 1101/CSE 1101.md",
     "CSE - 1101/6 - Files.md",
     "CSE - 1101/5 - Custom Data Types.md",
     "CSE - 1101/4 - Pointer.md",
     "CSE - 1101/3 - Function.md",
-    "CSE - 1101/1 - Introduction to Basic Concepts.md",
     "CSE - 1101/PYC.md",
     "CSE - 1101/PDFs/PYC.pdf",
     "CSE - 1101/PDFs",
@@ -201,15 +219,11 @@
     "HUM - 1113/HUM - 1113.md",
     "CSE - 1101/2 - Selection Statements.md",
     "Tmp.md",
-    "CSE - 1101/0 - Course Information.md",
     "CSE - 1100/0 - Course Information.md",
     "CSE - 1101",
     "HUM - 1113/12 - Phonetics.md",
     "HUM - 1113/11 - AI in Technical Writing.md",
     "HUM - 1113/10 - Types of Technical Reports.md",
-    "HUM - 1113/9 - Meeting Minutes.md",
-    "HUM - 1113/8 - Technical Report Writing.md",
-    "HUM - 1113/PDFs/11 - AI in Technical Writing.pdf",
-    "HUM - 1113/PDFs/10 - Types of Technical Reports.pdf"
+    "HUM - 1113/9 - Meeting Minutes.md"
   ]
 }

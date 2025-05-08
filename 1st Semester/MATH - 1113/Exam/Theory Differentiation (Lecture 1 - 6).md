@@ -4,7 +4,7 @@
 **Function**: A function is a relation between dependent and independent variables.
 Examples: $(i)\ f(x) = x^2 + 2$.  $(ii)\ y = 2x + 1$ 
 
-**Odd Function:** A function $f(x)$ is said to be odd if it changes sigh with the change of the sign of the variable $x$ that is if $f(-x)$ = $-f(x)$
+**Odd Function:** A function $f(x)$ is said to be odd if it changes sign with the change of the sign of the variable $x$ that is if $f(-x)$ = $-f(x)$
 Example: $f(x) = x^3$, $f(x) = \sin{(x)}$ 
 
 **Even Function:** A function $f(x)$ is said to be even if it does not change sign with the change of sign of the variable $x$ that is if $f(-x) = f(x)$ 
