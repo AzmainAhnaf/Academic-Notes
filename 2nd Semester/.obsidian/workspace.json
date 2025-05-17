@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "09ed50d46eeb0bba",
+    "id": "2d9d3ef5e540e84c",
     "type": "split",
     "children": [
       {
-        "id": "015b6075753e2595",
+        "id": "6b396d0c33b1030d",
         "type": "tabs",
         "children": [
           {
-            "id": "70b2b234770064a3",
+            "id": "e32417fd1ec5c119",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH - 1113/PYC.md",
+                "file": "EEE 1251/1 - Fundamentals of PN Junction and Semiconductor Diodes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PYC"
-            }
-          },
-          {
-            "id": "2684c6760efbbe3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CHEM  - 1113/0 - Course Information.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "0 - Course Information"
+              "title": "1 - Fundamentals of PN Junction and Semiconductor Diodes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "0f323284996a012d",
+    "id": "578e05e0de379db9",
     "type": "split",
     "children": [
       {
-        "id": "346ffd162a523e4c",
+        "id": "28d7013f780a9527",
         "type": "tabs",
         "children": [
           {
-            "id": "23907d3a29e5d6e2",
+            "id": "9dfffe369198dbda",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +48,7 @@
             }
           },
           {
-            "id": "543376dae022e23d",
+            "id": "63369b9170573f2d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +65,7 @@
             }
           },
           {
-            "id": "8c143240cc8c1ce0",
+            "id": "31c5ef0cf2aeb3ae",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,23 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.50152587890625
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "4b6f178e9a2fbe0f",
+    "id": "b44f8d6a1eca5a57",
     "type": "split",
     "children": [
       {
-        "id": "1157b2fdb93e0af0",
+        "id": "86a7d971aedd3e55",
         "type": "tabs",
         "children": [
           {
-            "id": "a40bd53ee49e8c0c",
+            "id": "8266ba2e789da35a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CHEM  - 1113/Course Information.md",
+                "file": "EEE 1251/1 - Fundamentals of PN Junction and Semiconductor Diodes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,46 +105,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Course Information"
+              "title": "Backlinks for 1 - Fundamentals of PN Junction and Semiconductor Diodes"
             }
           },
           {
-            "id": "e58c06704072f9da",
+            "id": "8227db6433e5d0a7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CHEM  - 1113/Course Information.md",
+                "file": "EEE 1251/1 - Fundamentals of PN Junction and Semiconductor Diodes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Course Information"
+              "title": "Outgoing links from 1 - Fundamentals of PN Junction and Semiconductor Diodes"
             }
           },
           {
-            "id": "3c4d3b50563fabd7",
+            "id": "b54bfe214479434e",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "6f1b24c664f042a4",
+            "id": "192e2c459a9ef013",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CHEM  - 1113/Course Information.md"
+                "file": "EEE 1251/1 - Fundamentals of PN Junction and Semiconductor Diodes.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Course Information"
+              "title": "Outline of 1 - Fundamentals of PN Junction and Semiconductor Diodes"
             }
           }
         ]
@@ -178,52 +169,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2684c6760efbbe3a",
+  "active": "e32417fd1ec5c119",
   "lastOpenFiles": [
-    "CSE - 1101/1 - Introduction to Basic Concepts.md",
-    "CSE - 1101/0 - Course Information.md",
-    "MATH - 1113/PYC.md",
-    "HUM - 1113/PDFs/PYC.pdf",
-    "HUM - 1113/7 - Cover Letter & CV.md",
-    "MATH - 1113/Exam/Theory Differentiation (Lecture 7 - 17).md",
-    "MATH - 1113/Exam/Theory Differentiation (Lecture 1 - 6).md",
-    "MATH - 1113/PDFs/PYC.pdf",
-    "MATH - 1113/PDFs",
-    "MATH - 1113/New folder",
-    "MATH - 1113/Integral Calculus/4 - Gamma Beta Function.md",
-    "MATH - 1113/Exam",
-    "MATH - 1113/Untitled.md",
-    "MATH - 1113/Integral Calculus/3 - General Properties and Reduction Formula.md",
-    "MATH - 1113/0 - Course Information.md",
-    "CSE - 1101/CSE 1101.md",
-    "CSE - 1101/6 - Files.md",
-    "CSE - 1101/5 - Custom Data Types.md",
-    "CSE - 1101/4 - Pointer.md",
-    "CSE - 1101/3 - Function.md",
-    "CSE - 1101/PYC.md",
-    "CSE - 1101/PDFs/PYC.pdf",
-    "CSE - 1101/PDFs",
-    "CSE - 1101/New folder",
-    "CSE - 1101/PYC.pdf",
-    "0 - Images/Pasted image 20250427010506.png",
-    "0 - Images/Pasted image 20250427010457.png",
-    "0 - Images/Pasted image 20250427010446.png",
-    "0 - Images/Pasted image 20250427010438.png",
-    "0 - Images/Pasted image 20250427010406.png",
-    "0 - Images/Pasted image 20250427010353.png",
-    "0 - Images/Pasted image 20250427010340.png",
-    "0 - Images/Pasted image 20250427010329.png",
-    "0 - Images/Pasted image 20250427010301.png",
-    "0 - Images/Pasted image 20250427010249.png",
-    "HUM - 1113/PYC.md",
-    "HUM - 1113/HUM - 1113.md",
-    "CSE - 1101/2 - Selection Statements.md",
-    "Tmp.md",
-    "CSE - 1100/0 - Course Information.md",
-    "CSE - 1101",
-    "HUM - 1113/12 - Phonetics.md",
-    "HUM - 1113/11 - AI in Technical Writing.md",
-    "HUM - 1113/10 - Types of Technical Reports.md",
-    "HUM - 1113/9 - Meeting Minutes.md"
+    "Pasted image 20250516224119.png",
+    "Pasted image 20250516224111.png",
+    "Pasted image 20250516224101.png",
+    "Pasted image 20250516223940.png",
+    "Pasted image 20250516223910.png",
+    "Phy 1213/1 - Structure of Matter.md",
+    "EEE 1251/1 - Fundamentals of PN Junction and Semiconductor Diodes.md",
+    "Phy 1214/0 - Course Information.md",
+    "Phy 1213/Class Lectures",
+    "Phy 1213/1 - Class Lectures",
+    "Phy 1213/Untitled.md",
+    "Phy 1213/0 - Course Information.md",
+    "Math 1213/0 - Course Information.md",
+    "EEE 1252/0 - Course Information.md",
+    "EEE 1251/0 - Course Information.md",
+    "CSE 1204/0 - Course Information.md",
+    "CSE 1203/0 - Course Information.md",
+    "CSE 1202/0 - Course Information.md",
+    "CSE 1201/0 - Course Information.md",
+    "CSE 1200/0 - Course Information.md",
+    "Welcome.md",
+    "Phy 1214",
+    "Phy 1213",
+    "Math 1213",
+    "EEE 1252",
+    "EEE 1251",
+    "CSE 1204",
+    "CSE 1203",
+    "CSE 1202"
   ]
 }
