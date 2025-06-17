@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE 1204/Lab Report/Week 2.md",
+                "file": "CSE 1201/1 - Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 2"
+              "title": "1 - Introduction"
             }
           }
         ]
@@ -171,19 +171,25 @@
   },
   "active": "b991da6694e700db",
   "lastOpenFiles": [
+    "0 - Images/Pasted image 20250617001052.png",
+    "CSE 1201/1 - Introduction.md",
+    "CSE 1201/2 - Arrays, Records and Pointers.md",
+    "0 - Images/Pasted image 20250617002244.png",
+    "0 - Images/Pasted image 20250617001845.png",
+    "0 - Images/Untitled.md",
+    "0 - Images/Pasted image 20250616225325.png",
+    "0 - Images/Pasted image 20250616234326.png",
+    "0 - Images/Pasted image 20250616234245.png",
+    "0 - Images/Pasted image 20250616231827.png",
+    "0 - Images/Pasted image 20250616231140.png",
+    "0 - Images/Pasted image 20250616231130.png",
+    "0 - Images/Pasted image 20250616231046.png",
+    "CSE 1201/0 - Course Information.md",
     "Phy 1213/1 - Structure of Matter.md",
-    "0 - Images/Pasted image 20250613023250.png",
-    "0 - Images/Pasted image 20250613030408.png",
-    "0 - Images/Pasted image 20250613025942.png",
-    "0 - Images/Pasted image 20250613025555.png",
-    "0 - Images/Pasted image 20250613025533.png",
-    "0 - Images/Pasted image 20250613025517.png",
-    "0 - Images/Pasted image 20250613025451.png",
-    "0 - Images/Pasted image 20250613025411.png",
-    "0 - Images/Pasted image 20250613025346.png",
-    "0 - Images/Pasted image 20250613025331.png",
-    "27th May.md",
+    "EEE 1251/1 - Fundamentals of PN Junction and Semiconductor Diodes.md",
     "CSE 1204/Lab Report/Week 2.md",
+    "CSE 1202/0 - Course Information.md",
+    "27th May.md",
     "CSE 1204/Lab Report/Week 1.md",
     "EEE 1252/0 - Course Information.md",
     "EEE 1252/Lab Report/Week 1/Week 1.md",
@@ -193,7 +199,6 @@
     "tmp.md",
     "0 - Images",
     "EEE 1251/0 - Course Information.md",
-    "EEE 1251/1 - Fundamentals of PN Junction and Semiconductor Diodes.md",
     "Phy 1214/0 - Course Information.md",
     "Phy 1213/Class Lectures",
     "Phy 1213/1 - Class Lectures",
@@ -202,8 +207,6 @@
     "Math 1213/0 - Course Information.md",
     "CSE 1204/0 - Course Information.md",
     "CSE 1203/0 - Course Information.md",
-    "CSE 1202/0 - Course Information.md",
-    "CSE 1201/0 - Course Information.md",
     "CSE 1200/0 - Course Information.md",
     "Welcome.md",
     "Phy 1214",
