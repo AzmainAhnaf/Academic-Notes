@@ -253,3 +253,336 @@ To ensure single frequency, giving precise stopping potential readings.
 
 **Unit of Planck's Constant**
 Joule-second
+
+# EEE
+
+## Diode
+
+**What is a diode?**
+A diode is a two-terminal semiconductor device that allows current to flow in one direction only
+
+**What is the basic structure of a diode?**
+A diode is typically made of a p-n junction, which is a region of a semiconductor material where p-type and n-type materials meet.
+
+**How does a diode work?**
+When a diode is forward biased, the depletion region narrows, allowing current to flow. When a diode is reverse biased, the region widens, preventing current flow.
+
+**What is the depletion region**
+A region around the p-n junction devoid of free electrons and hole, forming a potential barrier.
+
+**Conduction band**
+The conduction band is the energy range where electrons are free to move through the material, contributing to electrical conduction
+
+**Valence band**
+The valence band is the energy range where electrons are bound to atoms. Electrons here cannot move freely unless they again enough energy to jump to the conduction band.
+
+**Forbidden region**
+The gap between conduction band and valence band is called the forbidden region
+
+**Fermi Level**
+The highest energy level that an electron can occupy at the absolute zero temperature is known as the Fermi level. In a diode, the conduction band of n-side is close to Fermi level and valence band of p-side is close to Fermi level.
+
+**What is the breakdown voltage?**
+The reverse voltage at which a diode starts conducting in reverse.
+
+**Types of diodes**
+PN junction diode, Zener diode, LED.
+
+**What is the Zener diode used for?**
+Voltage regulation and maintaining a constant voltage in circuits.
+
+**Why is there a depletion region in a diode?**
+Because electrons and holes diffuse and recombine, leaving fixed ions, forming a potential barrier.
+
+**Difference between an ideal diode and a practical diode**
+- Ideal diode: zero forward resistance, infinite reverse resistance, zero forward voltage drop
+- Practical diode: finite forward voltage drop (0.7V for Si), small leaked current in reverse bias.
+
+**What is the reverse saturation current?**
+The tiny current that flows in reverse bias due to minority carriers.
+
+**Modes of diode**
+1. Forward Bias (Active Region):
+	- Conditions: When the anode is positive relative to the cathode.
+	- Behavior: The diode conducts current freely.
+2. Reverse Bias (Cutoff Region):
+	- Condition: When the anode is negative relative to the cathode.
+	- Behavior: The diode blocks current flow
+3. Breakdown (Saturation Region):
+	- Conditions: When the reverse voltage exceeds the breakdown voltage
+	- Behavior: The diode conducts heavily in the reverse direction
+
+**Application of diodes**
+- Rectification from AC to DC
+- Voltage regulators and managing constant voltage level
+- LEDs for lighting and display
+
+
+## Zener Diode
+
+**What is a Zener diode?**
+A special type of diode designed to operate in the reverse breakdown region without damage
+
+**What is the main application of a Zener diode?**
+Voltage regulation
+
+**Draw the symbol of Zener diode**
+![[Pasted image 20250913183732.png]]
+
+**How is Zener diode biased in voltage regulator circuits?**
+Reverse biased.
+
+**What is the difference between a PN junction diode and a Zener diode?**
+- PN junction: Used mainly in forward bias for rectification
+- Zener: Used mainly in reverse bias for regulation
+
+**What is dynamic resistance in a Zener diode?**
+The small resistance offered by the diode in the breakdown region is called dynamic resistance.
+
+**Why is a Zener diode heavily doped?**
+To create a thin depletion region and achieve breakdown at a well defined low voltage.
+
+## Half-Wave Rectifier
+
+**Draw the circuit of Half-Wave Rectifier**
+![[Pasted image 20250913185516.png]]
+
+**What is a rectifier?**
+A device that converts AC into DC
+
+**What is half-wave rectifier?**
+A rectifier that allows only one half-cycle of AC to pass through, blocking the other half.
+
+**What happens during the positive half cycle of AC input?**
+The diode is forward biased, it conducts, and the output follows the input.
+
+**What happens during the negative half cycle of AC input?**
+The diode is reverse biased, it blocks, and the output is zero
+
+**What is the average(DC) values of output voltage?**
+$$
+V_{dc} = \frac {V_m}\pi
+$$
+where, $V_m$ is the peak input voltage.
+
+**What is the RMS values of the output voltage?**
+$$
+V_{rms} = \frac {V_m}2
+$$
+**What is the rectification efficiency of a half-wave rectifier?**
+About $40.6 \%$ 
+
+**How do we improve half-wave rectifier?**
+By using filters like capacitors, which will reduce ripples and provide smoother DC output.
+
+**What is ripple?**
+Ripple is the undesired AC component present in the output of a rectifier along with the DC voltage.
+
+**Draw the output waveform of a HWR**
+![[Pasted image 20250913190129.png]]
+
+
+## Full-Wave Rectifier
+
+**Draw the circuit diagram of FWBR**
+![[Pasted image 20250913190309.png]]
+
+**What is a FWR**
+A rectifier that converts the entire AC waveform (both positive and negative half cycles) into DC.
+
+**How many diodes are required in a FWR?**
+- 2 diodes in center-tap configuration
+- 4 diodes in bridge configuration
+
+**What is the average (DC) output voltage of a FWR?**
+$$
+V_{dc} = \frac {2V_m} \pi
+$$
+**What is the RMS output voltage of a FWR?**
+$$
+V_{rms} = \frac{V_m} {\sqrt 2}
+$$
+**What is the efficiency of a FWR?**
+$81.2 \%$
+
+## Clipper Circuit
+
+**What is a clipper circuit?**
+A circuit that removes or clips off a portion of the input waveform without distorting the remaining part.
+
+**What components are used in a clipper?**
+Diodes, resistors, and sometimes DC sources.
+
+**Types of clippers**
+- Series clipper (diode in series with load)
+- Shunt clipper (diode in parallel with load)
+
+**What is a biased clipper?**
+A clipper that uses an additional DC voltage source to shift the clipping level above or below zero.
+
+**What is the difference between a clipper and a clamper?**
+- Clipper: Removes part of the waveform
+- Clamper: Shifts the entire waveform up or down
+
+**Application of clipper**
+- Waveform shaping: To create specific waveforms or modify existing waveforms.
+- Signal protection: To protect sensitive components from excessive voltage
+- Audio amplifiers
+- Power supplies: To limit the output voltage of a power supply
+
+## Clamper Circuit
+
+**What is a clamper circuit?**
+A circuit that shifts the entire input signal up or down to a difference DC level without changing its shape
+
+**What are the basic components of a clamper?**
+Diode, capacitor and resistor.
+
+## Transistor
+
+**What is a transistor?**
+A transistor is a three-terminal semiconductor device used to amplify or switch electronic signals.
+
+**What are the different type of transistor?**
+- Bipolar Junction Transistor (BJT): Uses both electrons and holes as charge carriers
+- Field-Effect Transistor (FET): Uses only one type of charge carrier (either electrons or holes).
+
+## Bipolar Junction Transistor
+
+**What is a BJT**
+A three-terminal semiconductor device that uses both electrons and holes for conduction
+
+**What are the types of BJT?**
+NPN and PNP transistor
+
+**Draw an NPN BJT diagram**
+![[Pasted image 20250913201900.png|200]]
+
+**Why is it called "bipolar"?**
+Because current conduction involves both majority and minority charge carriers.
+
+**What are the terminals of a BJT?**
+Emitter, Base and Collector
+
+**How does a BJT work?**
+A small input current at the base controls a larger current flowing between collector and emitter.
+
+**What are the modes of operation of a BJT?**
+- Active mode (amplification)
+- Cutoff mode (OFF)
+- Saturation mode (ON, like a switch)
+- Reverse-active mode
+
+**What are the applications of BJTs**
+Amplifiers, switches, oscillators, logic circuits
+
+**Cutoff Region of a BJT**
+- Conditions: The BE junction is reverse biased, and the BC junction is also reverse biased
+- Behavior: The transistor acts as an open switch, no current flows through the collector-emitter junction
+
+**Active Region a BJT**
+- Conditions: The BE junction is forward biased, and the BC junction is reverse biased.
+- Behavior: The transistor amplifies the input signal. The collector current is proportional to the base current.
+
+**Saturation Region of a BJT**
+- Conditions: The BE junction is forward biased, and the BC junctions is also forward biased.
+- Behavior: The transistor acts as a closed switch, and the collector current reached its maximum value.
+
+## Field-Effect Transistors (FET)
+
+**What is a Field-Effect Transistor (FET)?**
+A transistor that controls current using an electric field and is voltage controlled rather than current-controlled.
+
+**What are the terminals of an FET?**
+Gate, Drain, Source
+
+**What are the main types of FETs?**
+- Junction FET (JFET)
+- Metal-Oxide-Semiconductor FET (MOSFET)
+Both can be the type of N-channel or P-channel
+
+**Why is FET called a unipolar device?**
+Because current conduction is due to only one type of carrier (electrons in n-channel, holes in p-channel)
+
+**Draw the symbol of JFET (N-channel)**
+![[Pasted image 20250913203410.png|200]]
+
+**How does a JFET work?**
+The gate-source voltage ($V_{GS}$) controls the drain-source current ($I_D$) by changing the channel width.
+
+**Draw the symbol of MOSFET**
+![[Pasted image 20250913204637.png|200]]
+
+**What is pinch-off in a JFET?**
+The channel become completely constricted at a certain $V_{DS}$, but current saturates and does not increase with further $V_{DS}$.
+
+**What is the cutoff voltage?**
+The gate-source voltage at which the drain current becomes zero.
+
+**What are the types of MOSFET based on gate operation**
+- Enhancement MOSFET
+	- Normally OFF at $V_{GS} = 0$
+	- Requires a gate-source voltage to create a conducting channel
+- Depletion MOSFET
+	- Normally ON at $V_{GS} = 0$
+	- Applying gate voltage opposite to channel type reduces or depletes current
+
+**Draw the symbol of Enhancement MOSFET**
+![[Pasted image 20250913205338.png]]
+
+**Draw the symbol of Depletion MOSFET**
+![[Pasted image 20250913205433.png|200]]
+
+**Cutoff region of FET**
+- Conditions: The gate-source voltage is below the threshold voltage
+- Behavior: The channel between the source and drain is closed, and no current flows.
+
+**Ohmic region of FET**
+- Conditions: The gate-source voltage is slightly above the threshold voltage
+- Behavior: The FET acts as a resistor, and the drain current is proportional to the drain-source voltage
+
+**Active region of FET**
+- Conditions: The gate-source voltage is well above the threshold voltage
+- Behavior: The FET amplifies the input signal, and the drain current is controlled by the gate voltage
+
+**Application of FET**
+Amplifiers, switching circuits.
+
+
+## Operational Amplifiers (op-amp)
+
+**What is an Op-Amp?**
+A high-gain electronic voltage amplifier with differential input and usually a single-ended output
+
+**Characteristics of an idea Op-Amp**
+- Infinite open-loop gain
+- Infinite input impedance
+- Zero output resistance
+- Infinite slew rate
+- Infinite bandwidth
+- Zero offset voltage
+
+**What is the difference between inverting and non-inverting input?**
+- Inverting: Output is $180 \degree$ out of phase with input
+- Non-inverting: Output is in phase with input
+
+**Applications of Op-Amps**
+Amplifiers, filters, integrators, differentiators, comparators
+
+**Output for a differentiator**
+- Sine wave to cosine wave
+- Triangular wave to square wave
+- square wave to positive and negative spikes
+
+**Output for integrator**
+- Sine wave to cosine wave
+- Triangular wave to parabolic wave
+- Square wave to triangular wave
+
+## Filter
+
+**Dissect the word "First-Order Active Low-Pass Butterworth Filter**
+- First-Order: Indicates filters consists of RC components and roll-off is 20 dB/decade
+- Active: meaning filter uses devices such an Op-Amp
+- Low-Pass: Types of filter that allows low-frequency signals and attenuates high-frequency signals
+- Butterworth: refers to flag magnitude response in the passband.
