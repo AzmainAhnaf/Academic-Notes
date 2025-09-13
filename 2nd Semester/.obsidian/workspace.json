@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Phy 1214/Lab Quiz.md",
+                "file": "Phy 1214/0 - Course Information.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab Quiz"
+              "title": "0 - Course Information"
+            }
+          },
+          {
+            "id": "31001037ad069c2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Board Viva.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Board Viva"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b44f8d6a1eca5a57",
@@ -169,11 +185,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "28aca7f0bd6459c3",
+  "active": "31001037ad069c2d",
   "lastOpenFiles": [
-    "tmp.md",
-    "Phy 1214/Lab Quiz.md",
     "Phy 1214/Lab Final.md",
+    "Board Viva.md",
+    "Phy 1214/0 - Course Information.md",
+    "Phy 1213/0 - Course Information.md",
+    "Phy 1214/Lab Quiz.md",
+    "tmp.md",
     "0 - Images/Pasted image 20250825134755.png",
     "0 - Images/Pasted image 20250825141520.png",
     "0 - Images/Pasted image 20250825140240.png",
@@ -191,7 +210,6 @@
     "Untitled 2.base",
     "Untitled 1.base",
     "Untitled.base",
-    "Untitled.md",
     "Phy 1213/CT PREP/CT 4.md",
     "Phy 1213/CT PREP",
     "CSE 1203/6 - Java 1.md",
@@ -210,7 +228,6 @@
     "CSE 1204/Lab Report/Week 4.md",
     "CSE 1204/Lab Report/Week 3.md",
     "CSE 1204/Lab Report/Week 2.md",
-    "CSE 1202/0 - Course Information.md",
     "EEE 1252/Lab Report/Week 1",
     "CSE 1204/Lab Report",
     "0 - Images",
