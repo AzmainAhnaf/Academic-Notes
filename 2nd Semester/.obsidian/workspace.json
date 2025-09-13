@@ -25,14 +25,12 @@
             "id": "31001037ad069c2d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Board Viva.md",
-                "mode": "source",
-                "source": false
+                "file": "0 - Images/Pasted image 20250913183732.png"
               },
-              "icon": "lucide-file",
-              "title": "Board Viva"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250913183732"
             }
           }
         ],
@@ -93,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b44f8d6a1eca5a57",
@@ -185,20 +182,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "31001037ad069c2d",
+  "active": "9dfffe369198dbda",
   "lastOpenFiles": [
-    "Untitled.md",
     "Board Viva.md",
-    "Pasted image 20250913205433.png",
-    "Pasted image 20250913205338.png",
-    "Pasted image 20250913204637.png",
-    "Pasted image 20250913203410.png",
+    "Untitled.md",
+    "Untitled 1.md",
+    "0 - Images/Pasted image 20250913205433.png",
+    "0 - Images/Pasted image 20250913205338.png",
+    "0 - Images/Pasted image 20250913204637.png",
+    "0 - Images/Pasted image 20250913203410.png",
     "Phy 1214/0 - Course Information.md",
-    "Pasted image 20250913201900.png",
-    "Pasted image 20250913190309.png",
-    "Pasted image 20250913190129.png",
-    "Pasted image 20250913185516.png",
-    "Pasted image 20250913183732.png",
+    "0 - Images/Pasted image 20250913201900.png",
+    "0 - Images/Pasted image 20250913190309.png",
+    "0 - Images/Pasted image 20250913190129.png",
+    "0 - Images/Pasted image 20250913185516.png",
+    "0 - Images/Pasted image 20250913183732.png",
     "Phy 1214/Lab Final.md",
     "Phy 1213/0 - Course Information.md",
     "Phy 1214/Lab Quiz.md",
@@ -227,7 +225,6 @@
     "CSE 1203/2 - Classes & Objects in OOP.md",
     "CSE 1203/1 - Introduction to OOP.md",
     "CSE 1204/Lab Report/Week 4.md",
-    "CSE 1204/Lab Report/Week 3.md",
     "EEE 1252/Lab Report/Week 1",
     "CSE 1204/Lab Report",
     "0 - Images",

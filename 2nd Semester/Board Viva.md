@@ -585,4 +585,117 @@ Amplifiers, filters, integrators, differentiators, comparators
 - First-Order: Indicates filters consists of RC components and roll-off is 20 dB/decade
 - Active: meaning filter uses devices such an Op-Amp
 - Low-Pass: Types of filter that allows low-frequency signals and attenuates high-frequency signals
-- Butterworth: refers to flag magnitude response in the passband.
+- Butterworth: refers to flat magnitude response in the passband.
+
+
+# Data Structure
+
+**What are the types of data structures?**
+- Primitive Data Structures: integers, floats, characters
+- Non-Primitive Data Structures
+	- Linear Data Structures: Arrays, Linked Lists, Stacks, Queues
+	- Non-Linear Data Structures: Trees, Graphs, Hash Tables
+
+# Object Oriented Programming
+
+**What is Object Oriented Programming(OOP)?**
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can contain data (attributes) and methods (functions). OOP enables concepts such as inheritance, encapsulation, polymorphism, and abstraction.
+
+**What is a class in OOP?**
+A class is a blueprint or template for creating objects. It defines properties (attributes) and behaviors (methods) that the created objects will have.
+
+**What is an object in OOP?**
+An object is an instance of a class. It is a concrete entity that has the attributes and methods defined by the class.
+
+**What are the four main principles of OOP?**
+1. Encapsulation: Building of data (attributes) and methods that operate on the data within a single unit or class.
+2. Abstraction: Hiding the internal implementation details and showing only the functionality to the user.
+3. Inheritance: Mechanism by which a class can inherit properties and methods from another class
+4. Polymorphism: Ability to take many forms, allowing objects to be treated as instances of their parent class, often achieved through method overriding or overloading.
+
+**What is encapsulation?**
+Encapsulation is the principle of bundling data (attributes) and methods that operate on that data into a single unit or class. It also restricts access to the internal details of the class and provided controlled access via public methods. For example, private data members can only be accessed or modified through getter and setter methods.
+
+**What is abstraction?**
+Abstraction is the concept of hiding the complexity of a system and only exposing the essential details. It simplifies the interaction with objects by providing a clear interface while keeping implementation details hidden. Abstract classes and interfaces are commonly used to implement abstraction in OOP.
+
+**What is inheritance in OOP?**
+Inheritance allows one class (the child class) to inherit properties and behaviors (methods) from another class (the parent class). This promotes code reuse and establishes relationship between classes.
+
+**What is polymorphism?**
+Polymorphism refers to the ability of an object to take on many forms. In OOP, polymorphism is mainly implemented through method overloading (same method name, different parameters) and method overriding (child class redefines a parent class's method)
+
+**What is method overloading?**
+Method overloading is a form of polymorphism where multiple methods in the same class share the same name but have different parameter lists (type, number, or both). This allows the same method to perform different actions based on the arguments passed to it.
+
+**What is method overriding?**
+Method overriding occurs when a subclass provides its own implementation of a method that is already defined in its parent class. The method in the subclass must have the same name, return type, and parameters as the one in the parent class, but the implementation can differ.
+
+**What is a constructor in OOP?**
+A constructor is a special method in a class that is automatically called when an object of that class is created. It is used to initialize the object's attributes. In most OOP languages, constructors have the same name as the class and do not return a value.
+
+**What is a destructor in OOP?**
+A destructor is a method that is automatically called when an object is destroyed or goes out of scope. It is used to free up resources that the object may have acquired during its lifetime.
+
+**What is an abstract class?**
+An abstract class is a class that cannot be instantiated directly and is designed to be subclassed. It may contain abstract methods (methods without implementation) that must be implemented by any derived class. Abstract classes provide a way to define a common interface for subclasses
+
+**What is an interface in OOP?**
+An interface is a contract that specified a set of methods that a class must implement. Unlike abstract classes, interfaces do not provide any implementation details; they only define the method signatures. A class that implements an interface agrees to provide concrete implementations of all the methods in the interface
+
+**What is multiple inheritance?**
+Multiple inheritance occurs when a class inherits from more than one parent class. While not supported directly in all languages, it can be achieved through interfaces in such languages.
+
+**What is `this` keyword in OOP?**
+The `this` keyword is a reference to the current instances of the class. It is used within a class to refer to the calling object's attributes and methods, especially in cases where parameter names might clash with attribute names.
+
+**What is difference between a class and an object?**
+- Class: A blueprint or template for creating objects. It defines attributes and methods that objects will have.
+- Object: An instance of a class, which contains the actual data and methods defined by the class
+
+**What is static binding and dynamic binding in OOP?**
+- Static Binding: Occurs at compile time and is associated with method overloading. The method call is resolved by the compiler based on the method signature.
+- Dynamic Binding: Occurs at runtime and is associated with method overriding. The method call is resolved at runtime based on the object type, not the reference type.
+
+**What are getters and setter in OOP?**
+Getters are method used to retrieve or access the values of an object's attribute, while setter are methods used to set or update the value of an object's attribute. They are used to implement encapsulation.
+
+**What is the significance of the `super` keyword in OOP?**
+The `super` keyword is used in a subclass to refer to its parent class. It can be used to call the parent class's methods or constructors and is particularly useful when the child class overrides methods but needs to access the parent class's implementation.
+
+**What are the types of inheritance in OOP?**
+- Single inheritance: A subclass inherits from one superclass
+- Multiple inheritance: A subclass inherits from more than one superclass
+- Multilevel inheritance: A class inherits from another class, which in turn inherits from another class
+- Hierarchical inheritance: Multiple subclasses inherit from a single superclass.
+- Hybrid inheritance: A combination of two or more types of inheritance, such as multiple and multilevel.
+
+**What are the benefits of inheritance?**
+- Code reusability
+- Modularity
+- Extensibility
+- Maintainability
+
+**What is the role of access modifiers in inheritance?**
+- Private members: Not accessible outside the class, including subclasses.
+- Protected members: Accessible within the same package and by subclasses
+- Public members: Accessible from inside and outside of the class
+
+**What is the role of the `final` keyword in inheritance?**
+If a class is marked as `final`, it cannot be extended or inherited by any other class. If a method is marked as `final`, it cannot be overridden by subclasses.
+
+**What are two types of polymorphism?**
+- Compile-time polymorphism: Achieved through method overloading or operator overloading. The method to be called is determined at compile time based on the method signature.
+- Runtime polymorphism: Achieved through method overriding. The method to be called is determined at runtime based on the object's actual type, not the reference type.
+
+**What is the role of the `virtual` and `override` keywords in polymorphism?**
+the `virtual` keyword is used in a base class method to indicated tat it can be overridden in the derived classes. The `override` keyword is used in the derived class to indicate that a method is overriding a base class method.
+
+**What is a pure virtual function?**
+A pure virtual function declared in a base class that has no implementation and is specified by assigning `0` in its declaration. It indicates that derived classes must provide an implementation for this function.
+
+**What is aggregation in OOP?**
+Aggregation is a type of associate that represent a relationship between two classes, where one class contains a reference to another class. It's a weaker form of relation, meaning the contained object can exist independently of the container class. If the container object is destroyed, the contained object does not necessarily get destroyed.
+
+**What is composition in OOP?**
+Composition is a design principles that models a strong relationship between two classes, where the lifetime of the contained object depends on the lifetime of the container. If the container object gets destroyed, the contained object also get destroyed at the same time.
